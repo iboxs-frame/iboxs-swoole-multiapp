@@ -12,7 +12,7 @@ class Service extends \iboxs\Service
      */
     public function boot()
     {
-        $this->app->bind('think\swoole\Http', Http::class);
+        $this->app->bind('iboxs\swoole\Http', Http::class);
     }
 
 }
